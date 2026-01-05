@@ -1,0 +1,246 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    color: #000;
+}
+
+.top-bar {
+    background: black;
+    color: white;
+    text-align: center;
+    padding: 8px;
+    font-size: 14px;
+}
+
+.top-bar a {
+    color: white;
+    font-weight: bold;
+}
+
+.search-bar input {
+    padding: 5px;
+    margin-right: 10px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 80px;
+}
+
+.header nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: 800;
+}
+
+.hero {
+    display: flex;
+    padding: 60px 80px;
+    align-items: center;
+}
+
+.hero-left {
+    width: 50%;
+}
+
+.hero-left h1 {
+    font-size: 52px;
+    line-height: 1.1;
+}
+
+.hero-left p {
+    color: #555;
+    margin: 20px 0;
+    width: 80%;
+}
+
+.hero-left button {
+    background: black;
+    color: white;
+    padding: 14px 30px;
+    border-radius: 30px;
+    border: none;
+    cursor: pointer;
+}
+
+.hero-stats {
+    display: flex;
+    margin-top: 40px;
+    gap: 40px;
+}
+
+.hero-stats h3 {
+    font-size: 24px;
+}
+
+.hero-stats span {
+    font-size: 14px;
+    color: gray;
+}
+
+.hero-right img {
+    width: 100%;
+}
+
+.brand-bar {
+    background: black;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    padding: 25px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.section {
+    padding: 80px;
+    text-align: center;
+}
+
+.section h2 {
+    margin-bottom: 50px;
+}
+
+.products {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+}
+
+.product {
+    background: #f6f6f6;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.product img {
+    width: 100%;
+}
+
+.view-btn {
+    margin-top: 40px;
+    padding: 12px 30px;
+    border-radius: 25px;
+    border: 1px solid black;
+    background: none;
+}
+
+.gray {
+    background: #f2f2f2;
+}
+
+.styles {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 25px;
+}
+
+.style {
+    height: 220px;
+    background: white;
+    border-radius: 25px;
+    font-size: 28px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer {
+    background: black;
+    color: white;
+    padding: 60px;
+    text-align: center;
+}
+
+.newsletter input {
+    padding: 12px;
+    width: 260px;
+    border-radius: 25px;
+    border: none;
+}
+
+.newsletter button {
+    padding: 12px 25px;
+    border-radius: 25px;
+    border: none;
+    margin-left: 10px;
+}
+
+.copy {
+    margin-top: 40px;
+    color: gray;
+}
+.modal{
+  position: fixed;
+  inset: 0;
+  background: rgba(0,0,0,0.6);
+  display: none;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.modal-box{
+  width: 350px;
+  background: white;
+  border-radius: 15px;
+  overflow: hidden;
+}
+
+.modal-header{
+  background: black;
+  color: white;
+  padding: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.modal-header button{
+  background: none;
+  border: none;
+  color: white;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.modal-body{
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.cart-item{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+.cart-item span{
+  flex: 1;
+}
+
+.qty-buttons button{
+  margin: 0 5px;
+  padding: 3px 8px;
+  cursor: pointer;
+}
+
